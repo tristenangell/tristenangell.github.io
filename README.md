@@ -1,2 +1,0 @@
-# tristenangell.github.io
-Portfolio
