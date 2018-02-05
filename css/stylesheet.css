@@ -1,0 +1,19 @@
+
+/*color palette*/
+.dark           { background: #7B1FA2; color: #FFFFFF; }
+.default        { background: #9C27B0; color: #FFFFFF; }
+.light          { background: #E1BEE7; color: #FFFFFF; }
+.main           { background: #FAFAFA; color: #212121; }
+.accent         { background: #FFC107; color: #FFFFFF; }
+.primary-text   { color: #212121; }
+.secondary-text { color: #757575; }
+.divider        { border-color: #BDBDBD; }
+
+p {
+    color: #757575;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
