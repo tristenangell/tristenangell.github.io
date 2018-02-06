@@ -9,11 +9,17 @@
 .secondary-text { color: #757575; }
 .divider        { border-color: #BDBDBD; }
 
+body {
+    font-family: 'Raleway', 'Open Sans', 'Roboto', sans-serif;
+}
 p {
     color: #757575;
 }
 
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 50px;;
+}
+
+.text-justify {
+    text-align: justify;
 }
