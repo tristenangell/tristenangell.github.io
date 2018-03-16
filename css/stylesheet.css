@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   font: 400 15px/1.8 "Raleway", sans-serif;
   color: #777;
+  font-size: 16px;
 }
 
 .padded {
@@ -35,45 +36,31 @@ body, html {
 .caption {
   position: absolute;
   top: 50%;
-  left: 50%;
-  width: auto;
+  left: 0;
+  width: 100%;
   text-align: center;
-  color: #000;
-
 }
 
 .caption span.border {
-  background-color:rgba(17, 17, 17, 0.4);
+  background-color:rgba(17, 17, 17, 0.6);
   font-size:25px;
   color: #f7f7f7;
   padding: 18px;
   letter-spacing: 10px;
+  transition: all .2s ease-in-out;
 }
 
-#top {
-  left: 0;
-  width: 100%;
-}
-
-#top span.border {
-  background-color: #111;
-  line-height: 60px;
+.caption span.border:hover {
+  background-color:rgba(17, 17, 17, 0.7);
 }
 
 .caption a:hover {
   text-decoration: none;
 }
 
-.blur {
-  position: relative;
-  left: -50%;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  transition: all .3s ease-in-out;
-}
-.blur:hover {
-  -webkit-backdrop-filter: blur(7px);
-  backdrop-filter: blur(7px);
+#top span.border {
+  background-color: #111;
+  font-size: 2vw;
 }
 
 h3 {
@@ -100,4 +87,12 @@ h3 {
       background-size: cover;
       min-height: 75%;
     }
+}
+
+@media only screen and (max-device-width: 720px) {
+  .bgimg-1 {
+    background-size: cover;
+    min-height: 60%;
+  }
+
 }
