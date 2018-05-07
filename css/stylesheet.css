@@ -8,6 +8,11 @@ body, html {
 .padded {
   padding:50px 40px;
 }
+
+.dark {
+  color: #222;
+}
+
 .bg {
   position: relative;
   opacity: 0.65;
