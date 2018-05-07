@@ -8,7 +8,7 @@ body, html {
 .padded {
   padding:50px 40px;
 }
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bg {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -31,6 +31,33 @@ body, html {
   background-image: url("../img/img_parallax3.jpg");
   min-height: 90%;
   color: #111;
+}
+
+.bgimg-4 {
+  background-image: url("../img/img_parallax.jpg");
+  min-height: 100%;
+}
+
+.bgimg-5 {
+  background-image: url("../img/img_parallax5.jpg");
+  /*min-height: 100%;*/
+}
+
+.bgimg-6 {
+  background-image: url("../img/img_parallax3.jpg");
+  min-height: 40%;
+  color: #111;
+}
+
+.navbar {
+  background-color:rgba(17, 17, 17, 0.6);
+  font-size:25px;
+  letter-spacing: 5px;
+}
+
+.nav-item {
+  font-size: 20px;
+  color: #fff;
 }
 
 .caption {
@@ -75,10 +102,14 @@ h3 {
   background-color:#282E34;
   text-align:center;
 }
+.img-fluid {
+  padding: 20px;
+  
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bg {
         background-attachment: scroll;
         min-height: 50%;
         background-size: 200%;
