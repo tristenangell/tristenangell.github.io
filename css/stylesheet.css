@@ -80,7 +80,7 @@ body, html {
 
 .caption span.border:hover {
   background-color:rgba(17, 17, 17, 0.7);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
 }
 
 .caption a:hover {
